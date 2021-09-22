@@ -51,7 +51,8 @@ function App() {
       </div>
       <footer className="footer">
         Project maintained by{" "}
-        <a href="mailto: khmais.mrad@gmail/com">Khmais Mrad</a>
+        <a href="mailto: khmais.mrad@gmail.com">Khmais Mrad</a>
+        <a href="https://github.com/khmais93">My Github profile</a>
       </footer>
     </Router>
   );
