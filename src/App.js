@@ -35,7 +35,11 @@ function App() {
             <Nav />
             <ContentGrid>
               <Switch>
-                <Route exact path="/" component={Home} />
+                <Route
+                  exact
+                  path={["/", "/would-you-rather-react"]}
+                  component={Home}
+                />
                 <Route path="/questions/:id" component={Poll} />
                 <Route path="/add" component={NewPoll} />
                 <Route path="/top" component={LeaderBoard} />
